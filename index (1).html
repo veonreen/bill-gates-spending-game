@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Gates Spending Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <img src="bill_gates.jpg" alt="Bill Gates" id="bill-gates-image">
+            <div id="money-counter">
+                <h1>Bill Gates Spending Game</h1>
+                <p>Budget: <span id="budget">$100,000,000,000</span></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="items-grid">
+            <h2>Items to Purchase</h2>
+            <div class="item" id="big-mac"><p>Big Mac - $2</p><button>Buy</button></div>
+            <div class="item" id="flip-flops"><p>Flip Flops - $3</p><button>Buy</button></div>
+            <div class="item" id="coca-cola-pack"><p>Coca-Cola Pack - $5</p><button>Buy</button></div>
+            <div class="item" id="movie-ticket"><p>Movie Ticket - $12</p><button>Buy</button></div>
+            <div class="item" id="book"><p>Book - $15</p><button>Buy</button></div>
+            <div class="item" id="lobster-dinner"><p>Lobster Dinner - $45</p><button>Buy</button></div>
+            <div class="item" id="video-game"><p>Video Game - $60</p><button>Buy</button></div>
+            <div class="item" id="amazon-echo"><p>Amazon Echo - $99</p><button>Buy</button></div>
+            <div class="item" id="year-of-netflix"><p>Year of Netflix - $100</p><button>Buy</button></div>
+            <div class="item" id="air-jordans"><p>Air Jordans - $125</p><button>Buy</button></div>
+            <div class="item" id="airpods"><p>Airpods - $199</p><button>Buy</button></div>
+            <div class="item" id="gaming-console"><p>Gaming Console - $299</p><button>Buy</button></div>
+            <div class="item" id="drone"><p>Drone - $350</p><button>Buy</button></div>
+            <div class="item" id="smartphone"><p>Smartphone - $699</p><button>Buy</button></div>
+            <div class="item" id="bike"><p>Bike - $800</p><button>Buy</button></div>
+            <div class="item" id="kitten"><p>Kitten - $1,500</p><button>Buy</button></div>
+            <div class="item" id="puppy"><p>Puppy - $1,500</p><button>Buy</button></div>
+            <div class="item" id="auto-rickshaw"><p>Auto Rickshaw - $2,300</p><button>Buy</button></div>
+            <div class="item" id="horse"><p>Horse - $2,500</p><button>Buy</button></div>
+            <div class="item" id="acre-of-farmland"><p>Acre of Farmland - $3,000</p><button>Buy</button></div>
+            <div class="item" id="designer-handbag"><p>Designer Handbag - $5,500</p><button>Buy</button></div>
+            <div class="item" id="hot-tub"><p>Hot Tub - $6,000</p><button>Buy</button></div>
+            <div class="item" id="luxury-wine"><p>Luxury Wine - $7,000</p><button>Buy</button></div>
+            <div class="item" id="diamond-ring"><p>Diamond Ring - $10,000</p><button>Buy</button></div>
+            <div class="item" id="jet-ski"><p>Jet Ski - $12,000</p><button>Buy</button></div>
+            <div class="item" id="rolex"><p>Rolex - $15,000</p><button>Buy</button></div>
+            <div class="item" id="ford-f150"><p>Ford F-150 - $30,000</p><button>Buy</button></div>
+            <div class="item" id="tesla"><p>Tesla - $75,000</p><button>Buy</button></div>
+            <div class="item" id="monster-truck"><p>Monster Truck - $150,000</p><button>Buy</button></div>
+            <div class="item" id="ferrari"><p>Ferrari - $250,000</p><button>Buy</button></div>
+            <div class="item" id="single-family-home"><p>Single Family Home - $300,000</p><button>Buy</button></div>
+            <div class="item" id="gold-bar"><p>Gold Bar - $700,000</p><button>Buy</button></div>
+            <div class="item" id="mcdonalds-franchise"><p>McDonalds Franchise - $1,500,000</p><button>Buy</button></div>
+            <div class="item" id="superbowl-ad"><p>Superbowl Ad - $5,250,000</p><button>Buy</button></div>
+            <div class="item" id="yacht"><p>Yacht - $7,500,000</p><button>Buy</button></div>
+            <div class="item" id="m1-abrams"><p>M1 Abrams - $8,000,000</p><button>Buy</button></div>
+            <div class="item" id="formula-1-car"><p>Formula 1 Car - $15,000,000</p><button>Buy</button></div>
+            <div class="item" id="apache-helicopter"><p>Apache Helicopter - $31,000,000</p><button>Buy</button></div>
+            <div class="item" id="mansion"><p>Mansion - $45,000,000</p><button>Buy</button></div>
+            <div class="item" id="make-a-movie"><p>Make a Movie - $100,000,000</p><button>Buy</button></div>
+            <div class="item" id="boeing-747"><p>Boeing 747 - $148,000,000</p><button>Buy</button></div>
+            <div class="item" id="mona-lisa"><p>Mona Lisa - $780,000,000</p><button>Buy</button></div>
+            <div class="item" id="skyscraper"><p>Skyscraper - $850,000,000</p><button>Buy</button></div>
+            <div class="item" id="cruise-ship"><p>Cruise Ship - $930,000,000</p><button>Buy</button></div>
+            <div class="item" id="nba-team"><p>NBA Team - $2,120,000,000</p><button>Buy</button></div>
+        </section>
+        <section id="achievements">
+            <h2>Achievements & Statistics</h2>
+            <ul>
+                <li>First Purchase</li>
+                <li>Spent $1 Million</li>
+                <li>Spent $1 Billion</li>
+                <li>Purchased 10 Items</li>
+                <li>Purchased 20 Items</li>
+                <!-- Add more achievements as needed -->
+            </ul>
+        </section>
+        <section id="statistics">
+            <h2>Statistics</h2>
+            <p>Total Spent: <span id="total-spent">$0</span></p>
+            <p>Items Purchased: <span id="items-purchased">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Bill Gates Spending Game</p>
+    </footer>
+
+    <!-- Modal Dialog for Game Completion -->
+    <div id="completion-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Congratulations!</h2>
+            <p>You have completed the game!</p>
+            <button id="restart-game">Restart Game</button>
+        </div>
+    </div>
+
+    <!-- Progress Indicator -->
+    <div id="progress-indicator">
+        <p>Progress: <span id="progress-percentage">0%</span></p>
+        <div id="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+
+    <!-- Celebration Effects Container -->
+    <div id="celebration-effects">
+        <!-- Effects like confetti or fireworks can be added here -->
+    </div>
+</body>
+</html>
